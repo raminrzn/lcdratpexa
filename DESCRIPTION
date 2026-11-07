@@ -1,0 +1,24 @@
+Package: lcdratpexa
+Title: LCDRAT Lung Cancer Death Risk (Katki 2016) - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("Li C", "Cheung", role = "aut", comment = "lcmodels R package (NCI)"),
+    person("Stephanie A", "Kovalchik", role = "aut", comment = "lcmodels R package (NCI)"),
+    person("Hormuzd A", "Katki", role = "aut", comment = "lcmodels R package (NCI)"))
+Description: Five-year risk of lung cancer death without CT screening for
+    ever-smokers, with competing mortality, from the Lung Cancer Death Risk
+    Assessment Tool (LCDRAT; Katki et al., JAMA 2016
+    <doi:10.1001/jama.2016.6255>). Uses the code and fitted models of NCI's
+    lcmodels R package, version 4.1.3, unchanged. Not intended for treating or
+    diagnosing human subjects.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0)
+Imports: jsonlite, stats, survival, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/lcdratpexa
